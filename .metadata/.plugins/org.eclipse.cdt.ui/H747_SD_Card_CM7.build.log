@@ -1,0 +1,10 @@
+09:46:45 **** Incremental Build of configuration Debug for project H747_SD_Card_CM7 ****
+make -j8 all 
+arm-none-eabi-size   H747_SD_Card_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  43188	    152	   4176	  47516	   b99c	H747_SD_Card_CM7.elf
+Finished building: default.size.stdout
+ 
+
+09:46:46 Build Finished. 0 errors, 0 warnings. (took 492ms)
+

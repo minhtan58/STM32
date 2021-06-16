@@ -1,0 +1,45 @@
+17:08:56 **** Incremental Build of configuration Debug for project F103_SPI_Slave ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "F103_SPI_Slave.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Admin\STM32CubeIDE\workspace_1.5.0\F103_SPI_Slave\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F103_SPI_Slave.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F103_SPI_Slave.elf
+ 
+arm-none-eabi-objdump -h -S  F103_SPI_Slave.elf  > "F103_SPI_Slave.list"
+arm-none-eabi-objcopy  -O binary  F103_SPI_Slave.elf  "F103_SPI_Slave.bin"
+arm-none-eabi-size   F103_SPI_Slave.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16048	    124	   1892	  18064	   4690	F103_SPI_Slave.elf
+Finished building: default.size.stdout
+ 
+Finished building: F103_SPI_Slave.bin
+ 
+Finished building: F103_SPI_Slave.list
+ 
+17:09:37 **** Incremental Build of configuration Debug for project F103_SPI_Slave ****
+make -j8 all 
+arm-none-eabi-size   F103_SPI_Slave.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16048	    124	   1892	  18064	   4690	F103_SPI_Slave.elf
+Finished building: default.size.stdout
+ 
+17:11:41 **** Incremental Build of configuration Debug for project F407_SPI_Master ****
+make -j8 all 
+arm-none-eabi-size   F407_SPI_Master.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17396	    120	   2040	  19556	   4c64	F407_SPI_Master.elf
+Finished building: default.size.stdout
+ 
+17:11:55 **** Incremental Build of configuration Debug for project F407_SPI_Master ****
+make -j8 all 
+arm-none-eabi-size   F407_SPI_Master.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17396	    120	   2040	  19556	   4c64	F407_SPI_Master.elf
+Finished building: default.size.stdout
+ 
+17:12:08 **** Incremental Build of configuration Debug for project F407_SPI_Master ****
+make -j8 all 
+arm-none-eabi-size   F407_SPI_Master.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17396	    120	   2040	  19556	   4c64	F407_SPI_Master.elf
+Finished building: default.size.stdout
+ 

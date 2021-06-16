@@ -1,0 +1,10 @@
+17:14:09 **** Incremental Build of configuration Debug for project H747_FTP_CM4 ****
+make -j8 all 
+arm-none-eabi-size   H747_FTP_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3144	     24	   1568	   4736	   1280	H747_FTP_CM4.elf
+Finished building: default.size.stdout
+ 
+
+17:14:09 Build Finished. 0 errors, 0 warnings. (took 311ms)
+

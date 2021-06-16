@@ -1,0 +1,21 @@
+18:44:40 **** Incremental Build of configuration Debug for project H747_USB_2_CM7 ****
+make -j8 all 
+arm-none-eabi-gcc "../USB_HOST/App/usb_host.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32H747xx -DCORE_CM7 -DDEBUG -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../../Middlewares/Third_Party/FatFs/src -I../../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"USB_HOST/App/usb_host.d" -MT"USB_HOST/App/usb_host.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "USB_HOST/App/usb_host.o"
+arm-none-eabi-gcc "../Core/Src/File_Handling.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32H747xx -DCORE_CM7 -DDEBUG -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../../Middlewares/Third_Party/FatFs/src -I../../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/File_Handling.d" -MT"Core/Src/File_Handling.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/File_Handling.o"
+arm-none-eabi-gcc -o "H747_USB_2_CM7.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\Admin\STM32CubeIDE\workspace_1.5.0\H747_USB_2\CM7\STM32H747XIHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="H747_USB_2_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: H747_USB_2_CM7.elf
+ 
+arm-none-eabi-objdump -h -S  H747_USB_2_CM7.elf  > "H747_USB_2_CM7.list"
+arm-none-eabi-objcopy  -O binary  H747_USB_2_CM7.elf  "H747_USB_2_CM7.bin"
+arm-none-eabi-size   H747_USB_2_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57320	    156	  12604	  70080	  111c0	H747_USB_2_CM7.elf
+Finished building: default.size.stdout
+ 
+Finished building: H747_USB_2_CM7.bin
+ 
+Finished building: H747_USB_2_CM7.list
+ 
+
+18:44:42 Build Finished. 0 errors, 0 warnings. (took 1s.637ms)
+

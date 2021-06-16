@@ -1,0 +1,22 @@
+17:45:43 **** Incremental Build of configuration Debug for project lcd20x4 ****
+make all 
+arm-none-eabi-gcc -c "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "lcd20x4.elf" @"objects.list"   -mcpu=cortex-m3 -T"../STM32F103C8_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd20x4.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd20x4.elf
+ 
+arm-none-eabi-size   lcd20x4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4716	     20	   1652	   6388	   18f4	lcd20x4.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S  lcd20x4.elf  > "lcd20x4.list"
+Finished building: lcd20x4.list
+ 
+arm-none-eabi-objcopy  -O binary  lcd20x4.elf  "lcd20x4.bin"
+Finished building: lcd20x4.bin
+ 
+arm-none-eabi-objcopy.exe -O ihex "lcd20x4.elf" "lcd20x4.hex"
+ 
+
+17:45:44 Build Finished. 0 errors, 0 warnings. (took 1s.362ms)
+

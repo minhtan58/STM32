@@ -1,0 +1,10 @@
+15:16:30 **** Incremental Build of configuration Debug for project H747_QSPI_CM7 ****
+make -j8 all 
+arm-none-eabi-size   H747_QSPI_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31460	    148	   1924	  33532	   82fc	H747_QSPI_CM7.elf
+Finished building: default.size.stdout
+ 
+
+15:16:31 Build Finished. 0 errors, 0 warnings. (took 366ms)
+

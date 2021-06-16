@@ -1,0 +1,10 @@
+09:46:58 **** Incremental Build of configuration Debug for project H747_App_CM7 ****
+make -j8 all 
+arm-none-eabi-size   H747_App_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33576	    124	   2172	  35872	   8c20	H747_App_CM7.elf
+Finished building: default.size.stdout
+ 
+
+09:46:58 Build Finished. 0 errors, 0 warnings. (took 262ms)
+

@@ -1,0 +1,13 @@
+16:19:24 **** Incremental Build of configuration Debug for project Custom_Loader ****
+make -j8 all 
+arm-none-eabi-size   Custom_Loader.elf 
+   text	   data	    bss	    dec	    hex	filename
+  59008	    128	   1680	  60816	   ed90	Custom_Loader.elf
+Finished building: default.size.stdout
+ 
+cmd.exe /C copy/Y  "Custom_Loader.elf" "..\QSPI_flashloader_CSP.stldr"
+        1 file(s) copied.
+ 
+
+16:19:25 Build Finished. 0 errors, 0 warnings. (took 761ms)
+

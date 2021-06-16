@@ -1,0 +1,10 @@
+18:21:33 **** Incremental Build of configuration Debug for project H747_USB_CM7 ****
+make -j8 all 
+arm-none-eabi-size   H747_USB_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38524	    156	  11792	  50472	   c528	H747_USB_CM7.elf
+Finished building: default.size.stdout
+ 
+
+18:21:33 Build Finished. 0 errors, 0 warnings. (took 417ms)
+

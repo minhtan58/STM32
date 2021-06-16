@@ -1,0 +1,9 @@
+17:14:10 **** Incremental Build of configuration Debug for project H747_FTP_CM7 ****
+make -j8 all 
+arm-none-eabi-size   H747_FTP_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  72064	    228	   7340	  79632	  13710	H747_FTP_CM7.elf
+Command canceled
+
+17:14:11 Build Cancelled. (took 489ms)
+

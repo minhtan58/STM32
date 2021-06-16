@@ -1,0 +1,20 @@
+18:12:24 **** Incremental Build of configuration Debug for project H747_SPI_Flash_CM7 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/quadspi.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/quadspi.d" -MT"Core/Src/quadspi.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/quadspi.o"
+arm-none-eabi-gcc -o "H747_SPI_Flash_CM7.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\Admin\STM32CubeIDE\workspace_1.5.0\H747_SPI_Flash\CM7\STM32H747XIHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="H747_SPI_Flash_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: H747_SPI_Flash_CM7.elf
+ 
+arm-none-eabi-objdump -h -S  H747_SPI_Flash_CM7.elf  > "H747_SPI_Flash_CM7.list"
+arm-none-eabi-objcopy  -O binary  H747_SPI_Flash_CM7.elf  "H747_SPI_Flash_CM7.bin"
+arm-none-eabi-size   H747_SPI_Flash_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31216	    124	   1820	  33160	   8188	H747_SPI_Flash_CM7.elf
+Finished building: default.size.stdout
+ 
+Finished building: H747_SPI_Flash_CM7.bin
+ 
+Finished building: H747_SPI_Flash_CM7.list
+ 
+
+18:12:26 Build Finished. 0 errors, 0 warnings. (took 1s.802ms)
+

@@ -1,0 +1,10 @@
+18:17:06 **** Incremental Build of configuration Debug for project H747_Datalogger_CM7 ****
+make -j8 all 
+arm-none-eabi-size   H747_Datalogger_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57832	    128	  21328	  79288	  135b8	H747_Datalogger_CM7.elf
+Finished building: default.size.stdout
+ 
+
+18:17:08 Build Finished. 0 errors, 0 warnings. (took 2s.142ms)
+

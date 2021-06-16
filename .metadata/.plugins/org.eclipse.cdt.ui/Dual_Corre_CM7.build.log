@@ -1,0 +1,10 @@
+15:38:58 **** Incremental Build of configuration Debug for project Dual_Corre_CM7 ****
+make -j8 all 
+arm-none-eabi-size   Dual_Corre_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28548	    128	   1744	  30420	   76d4	Dual_Corre_CM7.elf
+Finished building: default.size.stdout
+ 
+
+15:38:58 Build Finished. 0 errors, 0 warnings. (took 243ms)
+

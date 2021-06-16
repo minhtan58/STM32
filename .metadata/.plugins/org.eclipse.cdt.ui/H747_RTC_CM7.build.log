@@ -1,0 +1,10 @@
+13:50:15 **** Incremental Build of configuration Debug for project H747_RTC_CM7 ****
+make -j8 all 
+arm-none-eabi-size   H747_RTC_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25984	     32	   2016	  28032	   6d80	H747_RTC_CM7.elf
+Finished building: default.size.stdout
+ 
+
+13:50:16 Build Finished. 0 errors, 0 warnings. (took 244ms)
+

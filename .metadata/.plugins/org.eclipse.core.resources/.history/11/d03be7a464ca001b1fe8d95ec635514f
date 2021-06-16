@@ -1,0 +1,31 @@
+/*
+ * sd_card.c
+ *
+ *  Created on: Jun 11, 2021
+ *      Author: Admin
+ */
+
+#include "sd_card.h"
+
+SD_HandleTypeDef hsd1;
+
+FATFS   	fatfs; 		/* FAT File System */
+FRESULT 	fresult;  	/* FAT File Result */
+FIL			myfile;		/* FILE Instance */
+
+void Sd_Card_Manager()
+{
+	printf("===================Sd_Card_Manager====================\r\n");
+	if(BSP_SD_Init() == MSD_OK)
+	{
+		printf("===================ok====================\r\n");
+		fresult = f_mount(&fatfs,"",1);
+
+		/* Create File with name "stm32.txt" and file access is write */
+		fresult = f_open(&myfile,"stm.txt",FA_CREATE_ALWAYS|FA_WRITE);
+
+		byte_written = f_printf(&myfile,"%s",write_data);
+
+		fresult = f_close(&myfile);
+	}
+}

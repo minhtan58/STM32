@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Admin\STM32CubeIDE\workspace_1.5.0\HID_Standalone"/>
+			<item value="C:\Users\Admin\STM32CubeIDE\workspace_1.5.0\TUT_USB_HOST_MSC_F4"/>
+			<item value="C:\Users\Admin\STM32CubeIDE\workspace_1.5.0\H747_GPIO_1"/>
+			<item value="C:\Users\Admin\STM32CubeIDE\workspace_1.5.0\H747_GPIO"/>
+			<item value="C:\Users\Admin\STM32CubeIDE\workspace_1.5.0\H747_FTP"/>
+			<item value="C:\Users\Admin\STM32CubeIDE\workspace_1.5.0\W5500_FTPS"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Admin\STM32CubeIDE\workspace_1.5.0\ResourcesManager_SharedResources"/>
+			<item value="C:\Users\Admin\STM32CubeIDE\workspace_1.5.0\ResourcesManager_SharedResources\SW4STM32\STM32H747I_DISCO"/>
+			<item value="C:\Users\Admin\STM32CubeIDE\workspace_1.5.0\ResourcesManager_UsageWithNotification"/>
+			<item value="C:\Users\Admin\STM32CubeIDE\workspace_1.5.0\F103RCT6_SPI"/>
+			<item value="C:\Users\Admin\Downloads\SourceCode_VN42\lcd_i2c_example"/>
+			<item value="C:\Users\Admin\Downloads\lcd20x4\lcd20x4"/>
+			<item value="C:\Users\Admin\Desktop\BSP_HME"/>
+			<item value="C:\Work Space\HME\BSP_HME\Source"/>
+			<item value="C:\Work Space\HME\BSP_HME"/>
+			<item value="C:\Work Space\HME\QSPI\MOOC - External QSPI loader-20210407T081340Z-001\MOOC - External QSPI loader\Custom_Loader"/>
+			<item value="C:\Work Space\HME\Source\test\test"/>
+			<item value="C:\Work Space\HME\Source\QSPI\QSPI"/>
+			<item value="C:\Work Space\HME\Source\STM32CubeH7-master\Projects\STM32H747I-EVAL\Examples\QSPI\QSPI_MemoryMappedDual"/>
+			<item value="C:\Work Space\HME\Source\STM32CubeH7-master\Projects\STM32H747I-EVAL\Examples\FLASH\FLASH_CoreConfiguration\SW4STM32\STM32H747I_EVAL"/>
+			<item value="C:\Work Space\HME\Source\STM32CubeH7-master\Projects\STM32H747I-DISCO\Demonstrations\STemWin\SW4STM32\STemWin-STM32H747I-DISCO"/>
+			<item value="C:\Work Space\HME\Source\STM32CubeH7-master\Projects\STM32H747I-DISCO\Applications\USB_Host\MSC_Standalone\SW4STM32\STM32H747I_Discovery_USBH-HS"/>
+			<item value="C:\Work Space\HME\Source\STM32CubeH7-master\Projects\STM32H747I-DISCO\Applications\USB_Host\HID_Standalone\SW4STM32\STM32H747I_Discovery_USBH-HS"/>
+		</list>
+	</section>
+</section>

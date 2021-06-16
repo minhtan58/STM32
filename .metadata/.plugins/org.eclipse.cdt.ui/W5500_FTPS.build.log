@@ -1,0 +1,61 @@
+14:15:05 **** Build of configuration Debug for project W5500_FTPS ****
+make -j8 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f401retx.d" -MT"Startup/startup_stm32f401retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f401retx.o" "../Startup/startup_stm32f401retx.s"
+arm-none-eabi-gcc "../Src/bsp_driver_sd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F401xE -DDEBUG -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src/drivers -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FatFs/src -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/bsp_driver_sd.d" -MT"Src/bsp_driver_sd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/bsp_driver_sd.o"
+arm-none-eabi-gcc "../Src/fatfs.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F401xE -DDEBUG -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src/drivers -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FatFs/src -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/fatfs.d" -MT"Src/fatfs.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/fatfs.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F401xE -DDEBUG -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src/drivers -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FatFs/src -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F401xE -DDEBUG -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src/drivers -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FatFs/src -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/stm32f4xx_hal_msp.d" -MT"Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F401xE -DDEBUG -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src/drivers -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FatFs/src -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/stm32f4xx_it.d" -MT"Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F401xE -DDEBUG -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src/drivers -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FatFs/src -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F401xE -DDEBUG -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src/drivers -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FatFs/src -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+In file included from ../Inc/fatfs.h:56:0,
+                 from ../Src/fatfs.c:49:
+../Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.h:55:8: error: unknown type name 'Diskio_drvTypeDef'
+ extern Diskio_drvTypeDef  SD_Driver;
+        ^~~~~~~~~~~~~~~~~
+In file included from ../Src/fatfs.c:49:0:
+../Inc/fatfs.h:62:8: error: unknown type name 'uint8_t'
+ extern uint8_t retSD; /* Return value for SD */
+        ^~~~~~~
+../Inc/fatfs.h:64:8: error: unknown type name 'FATFS'
+ extern FATFS SDFatFS; /* File system object for SD logical drive */
+        ^~~~~
+../Inc/fatfs.h:65:8: error: unknown type name 'FIL'
+ extern FIL SDFile; /* File object for SD */
+        ^~~
+../Src/fatfs.c:51:1: error: unknown type name 'uint8_t'
+ uint8_t retSD;    /* Return value for SD */
+ ^~~~~~~
+../Src/fatfs.c:53:1: error: unknown type name 'FATFS'
+ FATFS SDFatFS;    /* File system object for SD logical drive */
+ ^~~~~
+../Src/fatfs.c:54:1: error: unknown type name 'FIL'
+ FIL SDFile;       /* File object for SD */
+ ^~~
+../Src/fatfs.c: In function 'MX_FATFS_Init':
+../Src/fatfs.c:63:11: warning: implicit declaration of function 'FATFS_LinkDriver' [-Wimplicit-function-declaration]
+   retSD = FATFS_LinkDriver(&SD_Driver, SDPath);
+           ^~~~~~~~~~~~~~~~
+../Src/fatfs.c: At top level:
+../Src/fatfs.c:75:1: error: unknown type name 'DWORD'
+ DWORD get_fattime(void)
+ ^~~~~
+make: *** [Src/subdir.mk:41: Src/fatfs.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Inc/fatfs.h:56:0,
+                 from ../Src/main.c:51:
+../Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.h:55:8: error: unknown type name 'Diskio_drvTypeDef'
+ extern Diskio_drvTypeDef  SD_Driver;
+        ^~~~~~~~~~~~~~~~~
+In file included from ../Src/main.c:51:0:
+../Inc/fatfs.h:64:8: error: unknown type name 'FATFS'
+ extern FATFS SDFatFS; /* File system object for SD logical drive */
+        ^~~~~
+../Inc/fatfs.h:65:8: error: unknown type name 'FIL'
+ extern FIL SDFile; /* File object for SD */
+        ^~~
+make: *** [Src/subdir.mk:43: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+14:15:06 Build Failed. 14 errors, 1 warnings. (took 1s.227ms)
+

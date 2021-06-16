@@ -1,0 +1,10 @@
+09:39:33 **** Incremental Build of configuration Debug for project H747_GPIO_1_CM4 ****
+make -j8 all 
+arm-none-eabi-size   H747_GPIO_1_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3120	     24	   1568	   4712	   1268	H747_GPIO_1_CM4.elf
+Finished building: default.size.stdout
+ 
+
+09:39:33 Build Finished. 0 errors, 0 warnings. (took 315ms)
+

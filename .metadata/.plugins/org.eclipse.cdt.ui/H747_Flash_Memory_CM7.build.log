@@ -1,0 +1,10 @@
+14:59:53 **** Incremental Build of configuration Debug for project H747_Flash_Memory_CM7 ****
+make -j8 all 
+arm-none-eabi-size   H747_Flash_Memory_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32720	    124	   1820	  34664	   8768	H747_Flash_Memory_CM7.elf
+Finished building: default.size.stdout
+ 
+
+14:59:54 Build Finished. 0 errors, 0 warnings. (took 436ms)
+

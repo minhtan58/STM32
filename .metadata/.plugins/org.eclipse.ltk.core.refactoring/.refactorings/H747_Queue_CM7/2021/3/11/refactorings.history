@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;H747_Queue_CM7/Core/Inc/SerailLink.h&apos; to &apos;SerialLink.h&apos;" description="Rename resource &apos;SerailLink.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/SerailLink.h" name="SerialLink.h" stamp="1615362001809" updateReferences="true"/>
+</session>

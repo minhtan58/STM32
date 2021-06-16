@@ -1,0 +1,7 @@
+14:07:19 **** Build of configuration Debug_CM7 for project STM32H747I_DISCO ****
+make -j8 all 
+make: *** No rule to make target 'C:/Utilities/ResourcesManager/res_mgr.c', needed by 'Utilities/ResourcesMgr/res_mgr.o'.  Stop.
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+14:07:19 Build Failed. 1 errors, 0 warnings. (took 197ms)
+

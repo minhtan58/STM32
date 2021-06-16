@@ -1,0 +1,10 @@
+17:26:27 **** Incremental Build of configuration Debug for project H747_UART_CM7 ****
+make -j8 all 
+arm-none-eabi-size   H747_UART_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27636	    124	   2028	  29788	   745c	H747_UART_CM7.elf
+Finished building: default.size.stdout
+ 
+
+17:26:27 Build Finished. 0 errors, 0 warnings. (took 247ms)
+
